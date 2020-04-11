@@ -260,8 +260,7 @@ return ret;
             g.fillRect(0, 0, WIDTH, HEIGHT);
             g.setColor(Color.BLACK);
             g.fillOval(100, 100, 30, 30);
-           g.drawString("This is gona be awesome "+Math.pow(2.0,10.0)+ "anoth "+  2 * (1<<9)  , 200, 200);
- 
+  
 
     g.drawString("" + dxdyPix[0] + " " + dxdyPix[1] + "x= " + tileArray.length + "y= " +tileArray[0].length , 0,580);
 
